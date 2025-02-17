@@ -1,0 +1,88 @@
+.nerko-one-regular {
+  font-family: "Nerko One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mogra-regular {
+  font-family: "Mogra", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.markazi-text-Markazi {
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body {
+    font-family: "Nerko One", serif;
+    background-color: #6bacbf;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.botao-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.botao-imagem {
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.botao-imagem:hover {
+    transform: translateY(-5px);
+}
+
+.botao-imagem img {
+    width: 100%;
+    max-width: 48px;
+    height: 48px;
+    object-fit: fill;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.botao-imagem span {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #444;
+    font-family: "Markazi Text", serif;
+}
+
+/* Estilo especial para o botão de PDF */
+.destaque {
+    background-color: #4CAF50;
+    border-color: #45a049;
+}
+
+.destaque span {
+    color: white;
+}
